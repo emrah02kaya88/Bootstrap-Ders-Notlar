@@ -1,0 +1,99 @@
+/* COMMON  */
+
+:root {
+	--color1: rgb(228, 228, 228);
+	--color2: rgb(38, 38, 38);
+}
+
+@font-face {
+	font-family: "AudiType-ExtNormal";
+	src: url("../fonts/AudiType-ExtendedNormal.woff2");
+}
+
+@font-face {
+	font-family: "AudiType-WideBold";
+	src: url("../fonts/AudiType-WideBold.woff2");
+}
+
+@font-face {
+	font-family: "AudiType-WideNormal";
+	src: url("../fonts/AudiType-WideNormal.woff2");
+}
+
+body {
+	font-family: "AudiType-WideNormal", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "AudiType-ExtNormal", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* NAVBAR */
+
+.main-navbar .offcanvas.offcanvas-top{
+    height: auto;
+}
+
+.main-navbar .navbar-toggler{
+    z-index: 1046;
+    border: none;
+}
+
+.main-navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.main-navbar .navbar-brand{
+    z-index: 1046;
+}
+
+.main-navbar .toolbar{
+    z-index: 1046;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.main-navbar .toolbar ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    font-size:0.8rem;
+}
+
+.main-navbar .toolbar ul li:first-child{
+    opacity: 0.6;
+}
+
+.main-navbar .toolbar button{
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:10px;
+    text-align: left;
+}
+
+
+.main-navbar .toolbar img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
