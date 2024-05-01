@@ -19,8 +19,8 @@
 <body>
 
     <nav class="main-navbar navbar bg-white fixed-top navbar-expand-xxl">
-        <div class="container-fluid">
-            
+        <div class="container-xxl">
+
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@
             <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    
+
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
@@ -64,9 +64,9 @@
                         <li class="nav-item">
                             <a class="nav-link dropdown-toggle" href="#">Audi in sport</a>
                         </li>
-                       
+
                     </ul>
-                    
+
                     <div class="toolbar d-lg-none d-xxl-flex">
                         <button class="d-none d-xxl-flex">
                             <i class="fa-solid fa-search"></i>
@@ -88,6 +88,76 @@
         </div>
     </nav>
 
+    <section class="slider">
+        <div class="content">
+            <h1>When an idea becomes reality</h1>
+            <h5>From apprentice project to product for the streets</h5>
+            <button class="button button-light">Read more</button>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/audi.webm" type="video/webm" />
+
+        </video>
+    </section>
+
+    <section class="topics container-xxl">
+        <h2>Current topics from the world of Audi</h2>
+
+        <div class="row row-cols-1  row-cols-lg-3 g-5 g-lg-1">
+            <div class="col">
+                <div class="card">
+                    <div class="image"><img src="img/topic-1.webp" alt=""></div>
+
+
+                    <div class="card-body">
+                        <small class="card-subtitle text-muted">Sustainability --- 04/15/2024</small>
+                        <h3 class="card-title">Responsibility for the future</h3>
+                        <div class="card-text">
+                            The series 'The Bigger Picture' shows how criteria for ecological and social sustainability
+                            determine Audi's actions.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="image"><img src="img/topic-2.jpg" alt=""></div>
+
+
+                    <div class="card-body">
+                        <small class="card-subtitle text-muted">Decarbonization --- 04/16/2024</small>
+                        <h3 class="card-title">Reducing CO₂ emissions at Audi dealerships</h3>
+                        <div class="card-text">
+                            CO₂ emissions are generated along the entire automotive value chain. Audi strives to reduce
+                            CO₂ emissions in all phases of the value chain in order to achieve effective
+                            decarbonization, and is also paying close attention to its dealer network in this respect.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="image"><img src="img/topic-3.jpg" alt=""></div>
+
+
+                    <div class="card-body">
+                        <small class="card-subtitle text-muted">Design 04/05 --- 2024</small>
+                        <h3 class="card-title">Design from the inside out</h3>
+                        <div class="card-text">
+                            Design from the inside out: the interior of the new Audi Q6 e-tron model series is more
+                            consistently geared towards the needs of users than ever before and rethinks the interior of
+                            the car.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
